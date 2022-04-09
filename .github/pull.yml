@@ -1,5 +1,5 @@
 version: "1"
 rules:
   - base: branch-docs
-    upstream: AY2122S2-CS2103T-T13-2:branch-docs
+    upstream: AY2122S2-CS2103T-T13-2/tp:branch-docs
     mergeMethod: hardreset
