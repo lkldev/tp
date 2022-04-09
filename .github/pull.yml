@@ -1,0 +1,8 @@
+version: "1"
+rules:
+  - base: master
+    upstream: AY2122S2-CS2103T-T13-2:master
+    mergeMethod: hardreset
+  - base: branch-docs
+    upstream: AY2122S2-CS2103T-T13-2:branch-docs
+    mergeMethod: hardreset
