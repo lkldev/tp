@@ -14,7 +14,6 @@ TAssist is a desktop app designed to **help teaching assistants manage their cla
 * Table of Contents
 {:toc}
 
---------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
 
 ## Quick start
@@ -31,8 +30,7 @@ TAssist is a desktop app designed to **help teaching assistants manage their cla
    ![Ui](images/Ui.png)
 
 5. When you open TAssist for the first time, the app displays sample data. A data file will be saved to your device only after you issue your first command.
-
-<div style="page-break-after: always;"></div>
+    <div style="page-break-after: always;"></div>
 
 6. Type the command in the command box and press Enter to execute it. e.g. typing **`list student`** and pressing Enter will list all students added.<br>
    Some example commands you can try:
