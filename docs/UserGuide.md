@@ -626,7 +626,7 @@ Format: `exit`
 <tbody>
     <tr>
         <th colspan="2" style="width:240px">Action</th>
-        <th>Format, Examples</th>
+        <th style="width:500px">Format, Examples</th>
     </tr>
     <tr>
         <td rowspan="4" style="width:122px">Add</td>
@@ -695,7 +695,7 @@ Format: `exit`
 <tbody>
     <tr>
         <th colspan="2" style="width:240px">Action</th>
-        <th>Format, Examples</th>
+        <th style="width:500px">Format, Examples</th>
     </tr>
     <tr>
         <td rowspan="1" style="width:122px">Taking attendance</td>
@@ -777,7 +777,7 @@ Format: `exit`
 <tbody>
     <tr>
         <th colspan="2" style="width:240px">Action</th>
-        <th>Format, Examples</th>
+        <th style="width:500px">Format, Examples</th>
     </tr>
      <tr>
         <td rowspan="3" style="width:122px">Filter</td>
