@@ -102,7 +102,6 @@ From TAssist's "Assessments" tab, click the "See Attempts" button to open a popu
 <div style="page-break-after: always;"></div>
 
 ### Command Parameters
-
 <table>
 <tbody>
     <tr>
@@ -170,6 +169,11 @@ From TAssist's "Assessments" tab, click the "See Attempts" button to open a popu
         <td>It represents the string to match when returning search results.
         </td>
     </tr>
+    </tbody>
+</table>
+<div style="page-break-after: always;"></div>
+<table>
+<tbody>
     <tr>
         <td>MODULE_CODE</td>
         <td><code>c/</code></td>
@@ -232,7 +236,6 @@ From TAssist's "Assessments" tab, click the "See Attempts" button to open a popu
 </tbody>
 </table>
 
---------------------------------------------------------------------------------------------------------------------
 
 <div style="page-break-after: always;"></div>
 
