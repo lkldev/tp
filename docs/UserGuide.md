@@ -23,18 +23,18 @@ TAssist is a desktop app designed to **help teaching assistants manage their cla
    1. You can download the [Oracle version](https://www.oracle.com/java/technologies/downloads/#java11) or another alternative such as the OpenJDK version.
    1. To check if Java is installed successfully, you can open Command Prompt (for Windows users) or Terminal (for Mac users) and type `java --version`.
 
-1. Download the latest `TAssist.jar` from [here](https://github.com/AY2122S2-CS2103T-T13-2/tp/releases).
+2. Download the latest `TAssist.jar` from [here](https://github.com/AY2122S2-CS2103T-T13-2/tp/releases).
 
-1. Copy the file to the folder you want to use as the _home folder_ for your TAssist.
+3. Copy the file to the folder you want to use as the _home folder_ for your TAssist.
 
-1. Double-click the file to start the app. The GUI similar to the below should appear in a few seconds. Note how the app contains some sample data.<br>
+4. Double-click the file to start the app. The GUI similar to the below should appear in a few seconds. Note how the app contains some sample data.<br>
    ![Ui](images/Ui.png)
 
-1. When you open TAssist for the first time, the app displays sample data. A data file will be saved to your device only after you issue your first command.
+5. When you open TAssist for the first time, the app displays sample data. A data file will be saved to your device only after you issue your first command.
 
 <div style="page-break-after: always;"></div>
 
-1. Type the command in the command box and press Enter to execute it. e.g. typing **`list student`** and pressing Enter will list all students added.<br>
+6. Type the command in the command box and press Enter to execute it. e.g. typing **`list student`** and pressing Enter will list all students added.<br>
    Some example commands you can try:
 
    * **`list student`**: Lists all students.
@@ -43,7 +43,7 @@ TAssist is a desktop app designed to **help teaching assistants manage their cla
 
    * **`delete student`** `3`: Deletes the 3rd student shown in the listing of the entity.
 
-1. Refer to the [Features](#features) below for details of each command.
+7. Refer to the [Features](#features) below for details of each command.
 
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
@@ -471,6 +471,7 @@ Examples:
 * `enrol c/1 s/1,2,3,4,5,6` enrols the 1st 6 students shown when `list student` is executed to the 1st class group shown when `list class` is executed.
 * `enrol c/1 s/e0123456,e0234567` enrols the students with student IDs `E0123456` and `E0234567` to the 1st class group shown when `list class` is executed.
 
+<div style="page-break-after: always;"></div>
 
 #### Disenrol a student: `disenrol`
 
@@ -493,6 +494,11 @@ Examples:
 <div style="page-break-after: always;"></div>
 
 ### Taking student attendance
+
+<div markdown="span" class="alert alert-primary">
+
+:bulb: **Tip:** If there are only a couple of students that are absent, you may mark the attendance for all students using the `mark` command before using the `unmark` command to mark the couple of students absent.
+</div>
 
 #### Mark attendance: `mark`
 
@@ -532,10 +538,6 @@ Examples:
 * `unmark c/1 w/3 s/1,2,3,4,5,6` unmarks the attendances of the 1st 6 students belonging to the 1st class group for week 3.
 * `unmark c/1 w/3 s/e0123456,e0234567` unmarks the attendances of the students with student IDs `E0123456` and `E0234567` belonging to the 1st class group for week 3.
 
-<div markdown="span" class="alert alert-primary">
-
-:bulb: **Tip:** If there are only a couple of students that are absent, you may mark the attendance for all students using `mark c/CLASS_GROUP_INDEX w/WEEK_INDEX s/all` before using `unmark c/CLASS_GROUP_INDEX w/WEEK_INDEX s/STUDENT_INDEXES|STUDENT_IDS` to mark the couple of students absent.
-</div>
 
 <div style="page-break-after: always;"></div>
 
