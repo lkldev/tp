@@ -28,6 +28,8 @@ TAssist is a desktop app designed to **help teaching assistants manage their cla
 
 1. When you open TAssist for the first time, the app displays sample data. A data file will be saved to your device only after you issue your first command.
 
+<div style="page-break-after: always;"></div>
+
 1. Type the command in the command box and press Enter to execute it. e.g. typing **`list student`** and pressing Enter will list all students added.<br>
    Some example commands you can try:
 
@@ -312,6 +314,7 @@ Format: `list assessment [m/MODULE_INDEX]`
 Examples:
 * `list assessment m/1` displays the assessment(s) belonging to the 1st module shown when `list module` is executed.
 
+<div style="page-break-after: always;"></div>
 
 #### Delete an assessment: `delete assessment`
 
@@ -360,6 +363,7 @@ Format: `list class [m/MODULE_INDEX]`
 Examples:
 * `list class m/1` displays the class groups belonging to the 1st module shown when `list module` is executed.
 
+<div style="page-break-after: always;"></div>
 
 #### Delete a class group: `delete class`
 
@@ -408,6 +412,7 @@ Examples:
 * `list student m/1` displays the students belonging to the 1st module shown when `list module` is executed.
 * `list student c/2` displays the students belonging to the 2nd class group shown when `list class` is executed.
 
+<div style="page-break-after: always;"></div>
 
 #### Find students: `find`
 
@@ -442,6 +447,7 @@ Delete a specified student from TAssist as well as the student's attempt(s) in a
 Examples:
 * `list student` followed by `delete student 2` deletes the 2nd student in the whole student list and their assessment(s)' attempt(s) in TAssist.
 
+<div style="page-break-after: always;"></div>
 
 #### Enrol a student: `enrol`
 
@@ -502,6 +508,7 @@ Examples:
 * `mark c/1 w/3 s/1,2,3,4,5,6` marks the attendances of the 1st 6 students belonging to the 1st class group for week 3.
 * `mark c/1 w/3 s/e0123456,e0234567` marks the attendances of the students with student IDs `E0123456` and `E0234567` belonging to the 1st class group for week 3.
 
+<div style="page-break-after: always;"></div>
 
 #### Unmark attendance: `unmark`
 
@@ -827,6 +834,8 @@ Format: `exit`
     </tr>
 </tbody>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 ## Command Shortcodes
 
