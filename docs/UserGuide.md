@@ -9,7 +9,8 @@ TAssist is a desktop app designed to **help teaching assistants manage their cla
 
 <div style="page-break-after: always;"></div>
 
-### Contents
+## Table of Contents
+{:.no_toc}
 
 * Table of Contents
 {:toc}
