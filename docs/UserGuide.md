@@ -688,9 +688,10 @@ Format: `exit`
             </ul>
         </td>
     </tr>
-    </tbody>
-    </table>
-    <table>
+</tbody>
+</table>
+<div style="page-break-after: always;"></div>
+<table>
 <tbody>
     <tr>
         <th colspan="2" style="width:240px">Action</th>
@@ -788,13 +789,15 @@ Format: `exit`
             </ul>
         </td>
     </tr>
-        </tbody>
-    </table>
-    <table>
+</tbody>
+</table>
+<div style="page-break-after: always;"></div>
+<table>
 <tbody>
     <tr>
         <th colspan="2" style="width:240px">Action</th>
         <th>Format, Examples</th>
+    </tr>
     <tr>
         <td rowspan="1" style="width:122px">Find</td>
         <td>student</td>
