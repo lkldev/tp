@@ -727,6 +727,16 @@ Format: `exit`
             </ul>
         </td>
     </tr>
+        <tr>
+        <td rowspan="1" >Find</td>
+        <td>student</td>
+        <td>
+            <ul>
+                <li>syntax: <code>find KEYWORD [MORE_KEYWORDS]</code></li>
+                <li>e.g., <code>find John</code></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td rowspan="4">List</td>
         <td>students</td>
@@ -760,8 +770,17 @@ Format: `exit`
             </ul>
         </td>
     </tr>
+</tbody>
+</table>
+<div style="page-break-after: always;"></div>
+<table>
+<tbody>
     <tr>
-        <td rowspan="3">Filter</td>
+        <th colspan="2" style="width:240px">Action</th>
+        <th>Format, Examples</th>
+    </tr>
+     <tr>
+        <td rowspan="3" style="width:122px">Filter</td>
         <td>students</td>
         <td>
             <ul>
@@ -786,25 +805,6 @@ Format: `exit`
             <ul>
                 <li>syntax: <code>list assessment m/MODULE_INDEX</code></li>
                 <li>e.g., <code>list assessment m/1</code></li>
-            </ul>
-        </td>
-    </tr>
-</tbody>
-</table>
-<div style="page-break-after: always;"></div>
-<table>
-<tbody>
-    <tr>
-        <th colspan="2" style="width:240px">Action</th>
-        <th>Format, Examples</th>
-    </tr>
-    <tr>
-        <td rowspan="1" style="width:122px">Find</td>
-        <td>student</td>
-        <td>
-            <ul>
-                <li>syntax: <code>find KEYWORD [MORE_KEYWORDS]</code></li>
-                <li>e.g., <code>find John</code></li>
             </ul>
         </td>
     </tr>
