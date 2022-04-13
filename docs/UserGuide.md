@@ -44,7 +44,6 @@ TAssist is a desktop app designed to **help teaching assistants manage their cla
 
 7. Refer to the [Features](#features) below for details of each command.
 
---------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
 
 
@@ -106,8 +105,8 @@ From TAssist's "Assessments" tab, click the "See Attempts" button to open a popu
 <table>
 <tbody>
     <tr>
-        <th>Parameter</th>
-        <th>Prefix</th>
+        <th style="width:255px">Parameter</th>
+        <th style="width:55px">Prefix</th>
         <th>Description</th>
     </tr>
     <tr>
@@ -175,6 +174,11 @@ From TAssist's "Assessments" tab, click the "See Attempts" button to open a popu
 <div style="page-break-after: always;"></div>
 <table>
 <tbody>
+    <tr>
+        <th style="width:255px">Parameter</th>
+        <th style="width:55px">Prefix</th>
+        <th>Description</th>
+    </tr>
     <tr>
         <td>MODULE_CODE</td>
         <td><code>c/</code></td>
