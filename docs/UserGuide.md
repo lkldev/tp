@@ -5,6 +5,8 @@ title: User Guide
 
 TAssist is a desktop app designed to **help teaching assistants manage their classes and students.** TAssist lets you save student contact data and group students into class groups and modules. Record attendance, mark assessments, and more by typing commands. TAssist combines its text command-based system with an intuitive interface to help you work quickly while displaying information in a clear and organized manner. If you are someone who prefers **Command Line Interface** (CLI) to **Graphical User Interface** (GUI) while having a GUI to view student data, TAssist is the app for you. However, if you are not familiar with CLI, this user guide will help you understand how each commands work.
 
+<div style="page-break-after: always;"></div>
+
 * Table of Contents
 {:toc}
 
@@ -283,6 +285,7 @@ Format: `delete module INDEX`
 Examples:
 * `list module` followed by `delete module 2` deletes the 2nd module and its associated class group(s) and assessment(s) in TAssist.
 
+<div style="page-break-after: always;"></div>
 
 ### Managing Assessments
 
@@ -328,6 +331,7 @@ Format: `delete assessment INDEX`
 Examples:
 * `list assessment` followed by `delete assessment 2` deletes the 2nd assessment in TAssist.
 
+<div style="page-break-after: always;"></div>
 
 ### Managing Classes
 
@@ -375,6 +379,7 @@ Format: `delete class INDEX`
 Examples:
 * `list class` followed by `delete class 2` deletes the 2nd class group in TAssist.
 
+<div style="page-break-after: always;"></div>
 
 ### Managing students
 
@@ -475,6 +480,7 @@ Examples:
 * `disenrol c/1 s/1,2,3,4,5,6` disenrols the 1st 6 students belonging to the 1st class group shown when `list class` is executed.
 * `disenrol c/1 s/e0123456,e0234567` disenrols the students with student IDs `E0123456` and `E0234567` from the 1st class group shown when `list class` is executed.
 
+<div style="page-break-after: always;"></div>
 
 ### Taking student attendance
 
@@ -520,6 +526,8 @@ Examples:
 :bulb: **Tip:** If there are only a couple of students that are absent, you may mark the attendance for all students using `mark c/CLASS_GROUP_INDEX w/WEEK_INDEX s/all` before using `unmark c/CLASS_GROUP_INDEX w/WEEK_INDEX s/STUDENT_INDEXES|STUDENT_IDS` to mark the couple of students absent.
 </div>
 
+<div style="page-break-after: always;"></div>
+
 ### Grade assessments: `grade`
 
 Grade a student's attempt at a specified module assessment. You can assign the same grade to multiple students at once.
@@ -543,6 +551,8 @@ Examples:
 
 :bulb: **Tip:** When grading assessments, executing the command without `g/GRADE` will increment what ever grade the student previously had. If the student has no grade for the assessment, they will automatically be graded `1`. Hence, you will be able to execute the same command every week when grading assessment like class participation.
 </div>
+
+<div style="page-break-after: always;"></div>
 
 ### Managing data
 
@@ -587,6 +597,8 @@ Format: `exit`
 **A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous TAssist home folder.
 
 --------------------------------------------------------------------------------------------------------------------
+
+<div style="page-break-after: always;"></div>
 
 ## Command summary
 
