@@ -609,14 +609,14 @@ Exit the program.
 
 Format: `exit`
 
---------------------------------------------------------------------------------------------------------------------
+
+<div style="page-break-after: always;"></div>
 
 ## FAQ
 
 **Q**: How do I transfer my data to another Computer?<br>
 **A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous TAssist home folder.
 
---------------------------------------------------------------------------------------------------------------------
 
 <div style="page-break-after: always;"></div>
 
@@ -625,11 +625,11 @@ Format: `exit`
 <table>
 <tbody>
     <tr>
-        <th colspan="2">Action</th>
+        <th colspan="2" style="width:240px">Action</th>
         <th>Format, Examples</th>
     </tr>
     <tr>
-        <td rowspan="4">Add</td>
+        <td rowspan="4" style="width:122px">Add</td>
         <td>student</td>
         <td>
             <ul>
@@ -688,8 +688,16 @@ Format: `exit`
             </ul>
         </td>
     </tr>
+    </tbody>
+    </table>
+    <table>
+<tbody>
     <tr>
-        <td rowspan="1">Taking attendance</td>
+        <th colspan="2" style="width:240px">Action</th>
+        <th>Format, Examples</th>
+    </tr>
+    <tr>
+        <td rowspan="1" style="width:122px">Taking attendance</td>
         <td>student(s)</td>
         <td>
             <ul>
@@ -780,8 +788,15 @@ Format: `exit`
             </ul>
         </td>
     </tr>
+        </tbody>
+    </table>
+    <table>
+<tbody>
     <tr>
-        <td rowspan="1">Find</td>
+        <th colspan="2" style="width:240px">Action</th>
+        <th>Format, Examples</th>
+    <tr>
+        <td rowspan="1" style="width:122px">Find</td>
         <td>student</td>
         <td>
             <ul>
