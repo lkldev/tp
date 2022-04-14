@@ -598,16 +598,35 @@ TAssist saves data as a JSON file `[JAR file location]/data/tassist.json`. Advan
 If your changes to the data file makes its format invalid, TAssist will discard all data and start with an empty data file at the next run.
 </div>
 
-#### Archiving data files `[coming in v2.0]`
-
-_Details coming soon ..._
-
-
 ### Exiting the Program: `exit`
 
 Exit the program.
 
 Format: `exit`
+
+<div style="page-break-after: always;"></div>
+
+## Future Enhancements
+
+### Archiving Data Files
+
+_Coming in V2.0, archiving data files will allow you to declutter TAssist and start fresh each semester while keeping backup of your previous teaching semesters._
+
+### Editing Entities
+
+_Coming in V2.0, editing entities will allow you to modify assessments, class groups, modules and students._
+
+### Importing/Exporting CSV Files
+
+_Coming in V2.0, importing CSV files will allow you to quickly populate TAssist using the data downloaded from NUS Learning Management System (LMS). Exporting CSV files will allow you to generate CSV files that can be uploaded to NUS LMS._
+
+### Integrating with Telegram
+
+_Coming in V2.0, integrating with Telegram will allow you to send reminders and communicate with the students directly._
+
+### Adding Comments to Assessments
+
+_Coming in V2.0, adding comments to assessments will allow you provide feedback to students directly after you are done grading the student's assessment._
 
 <div style="page-break-after: always;"></div>
 
