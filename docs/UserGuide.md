@@ -27,7 +27,7 @@ TAssist is a desktop app designed to **help teaching assistants manage their cla
 
 3. Copy the file to the folder you want to use as the _home folder_ for your TAssist.
 
-4. Double-click the file to start the app. The GUI similar to the below should appear in a few seconds. Note how the app contains some sample data.<br>
+4. Double-click the file to start the app. The GUI (as shown in the image below) should appear in a few seconds. Note how the app contains some sample data.<br>
    ![Ui](images/Ui.png)
 
 5. When you open TAssist for the first time, the app displays sample data. A data file will be saved to your device only after you issue your first command.
@@ -54,13 +54,13 @@ TAssist is a desktop app designed to **help teaching assistants manage their cla
 
 **:information_source: Notes about the command format:**<br>
 
-* Words in `UPPER_CASE` are the parameters to be supplied by the user.<br>
+* Words in `UPPER_CASE` are the parameters to be supplied by you.<br>
   e.g. in `add n/NAME`, `NAME` is a parameter which can be used as `add n/John Doe`.
 
 * Items in square brackets are optional.<br>
   e.g. `n/NAME [t/TELEGRAM_ID]` can be used as `n/John Doe t/john_doe` or as `n/John Doe`.
 
-* Only one group of arguments in curly braces can be used as argument. Each group is separated by a `|`.<br>
+* Only one group of the input in curly braces can be used as argument. Each group is separated by a `|`.<br>
   e.g. `{m/MODULE_INDEX | c/CLASS_GROUP_INDEX}` can be used as `m/1` or as `c/1` but not as `m/1 c/1`.
 
 * If multiple options are accepted for a parameter, only one option can be specified.<br>
@@ -903,7 +903,7 @@ To save you time, TAssist supports shorthand commands for each entity. When ente
 </tbody>
 </table>
 
-## We'd love to hear from you
+## Get in touch with us
 
-Feel free to approach us via our [github](https://github.com/AY2122S2-CS2103T-T13-2/tp/issues) if you have any questions or would like to contribute to our project!
+Feel free to reach out to us via our [github](https://github.com/AY2122S2-CS2103T-T13-2/tp/issues) if you have any questions or would like to contribute to our project!
 
