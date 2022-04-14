@@ -399,7 +399,7 @@ Examples:
 
 ### Managing Students
 
-#### Create a student: `add student`
+#### Add a student: `add student`
 
 Create a student to record their contact details. You can enrol this student in class groups later.
 
@@ -426,6 +426,24 @@ Examples:
 
 <div style="page-break-after: always;"></div>
 
+#### Delete a student: `delete student`
+
+<div markdown="span" class="alert alert-warning">:exclamation: **Caution:**
+This command is destructive.
+</div>
+
+Delete a specified student from TAssist as well as the student's attempt(s) in any assessment(s). They will be removed from the class group and module as well.
+
+* Deletes the student at the specified `INDEX`.
+* The index refers to the index number shown in the displayed student list.
+* The student is removed from both the displayed list and the original list.
+* The index **must be a positive integer** 1, 2, 3, …​
+
+Examples:
+* `list student` followed by `delete student 2` deletes the 2nd student in the whole student list and their assessment(s)' attempt(s) in TAssist.
+
+<div style="page-break-after: always;"></div>
+
 #### Find students: `find`
 
 Use the find command to search for students whose names contain any of the specified keywords.
@@ -442,24 +460,6 @@ Examples:
 * `find John` returns `john` and `John Doe`.
 * `find alex david` returns `Alex Yeoh`, `David Li`.
 
-
-#### Delete a student: `delete student`
-
-<div markdown="span" class="alert alert-warning">:exclamation: **Caution:**
-This command is destructive.
-</div>
-
-Delete a specified student from TAssist as well as the student's attempt(s) in any assessment(s).
-
-* Deletes the student at the specified `INDEX`.
-* The index refers to the index number shown in the displayed student list.
-* The student is removed from both the displayed list and the original list.
-* The index **must be a positive integer** 1, 2, 3, …​
-
-Examples:
-* `list student` followed by `delete student 2` deletes the 2nd student in the whole student list and their assessment(s)' attempt(s) in TAssist.
-
-<div style="page-break-after: always;"></div>
 
 #### Enrol a student: `enrol`
 
