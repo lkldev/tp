@@ -910,7 +910,7 @@ _Coming in V2.0, archiving data files will allow you to declutter TAssist and st
 ### Editing Entities
 {:.no_toc}
 
-_Coming in V2.0, editing entities will allow you to modify assessments, class groups, modules and students._
+_Coming in V2.0, editing entities will allow you to modify assessments, class groups, modules and students that were previously created._
 
 ### Importing/Exporting CSV Files
 {:.no_toc}
