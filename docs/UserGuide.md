@@ -609,15 +609,6 @@ Exit the program.
 
 Format: `exit`
 
-
-<div style="page-break-after: always;"></div>
-
-## FAQ
-
-**Q**: How do I transfer my data to another Computer?<br>
-**A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous TAssist home folder.
-
-
 <div style="page-break-after: always;"></div>
 
 ## Command summary
@@ -911,3 +902,8 @@ To save you time, TAssist supports shorthand commands for each entity. When ente
     </tr>
 </tbody>
 </table>
+
+## We'd love to hear from you
+
+Feel free to approach us via our [github](https://github.com/AY2122S2-CS2103T-T13-2/tp/issues) if you have any questions or would like to contribute to our project!
+
