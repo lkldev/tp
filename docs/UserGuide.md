@@ -87,18 +87,18 @@ TAssist is a desktop app designed to **help teaching assistants manage their cla
 
 TAssist's user interface features a command input box, a command results box, and a button bar. Use the buttons to switch between lists of your modules, class groups, students, and assessments.
 
-![Ui](images/Ui.png)
+![Ui](images/Ui1.png)
 
 <div style="page-break-after: always;"></div>
 
 From TAssist's "Classes" tab, click the "Check Absentees" button to open a popup window. This popup  displays a list of lessons 1-13 and any students who were **absent** for a lesson.
 
-<img src="images/Ui_Check_Attendance.jpg" style="display:block;margin:0 auto;max-width:500px;">
+<img src="images/Ui_Check_Attendance.png" style="display:block;margin:0 auto;max-width:500px;">
 
 <div style="page-break-after: always;"></div>
 From TAssist's "Assessments" tab, click the "See Attempts" button to open a popup window. This popup displays a list of student attempts for that assessment including their name and assigned grade.
 
-<img src="images/Ui_See_Attempts.jpg" style="display:block;margin:0 auto;max-width:500px;">
+<img src="images/Ui_See_Attempts.png" style="display:block;margin:0 auto;max-width:500px;">
 
 <div style="page-break-after: always;"></div>
 
