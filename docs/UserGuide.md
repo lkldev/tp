@@ -17,7 +17,7 @@ TAssist is a desktop app designed to **help teaching assistants manage their cla
 
 <div style="page-break-after: always;"></div>
 
-## Quick start
+## Quick Start
 
 1. Ensure you have Java `11` or above installed in your Computer.
    1. You can download the [Oracle version](https://www.oracle.com/java/technologies/downloads/#java11) or another alternative such as the OpenJDK version.
@@ -396,7 +396,7 @@ Examples:
 
 <div style="page-break-after: always;"></div>
 
-### Managing students
+### Managing Students
 
 #### Create a student: `add student`
 
@@ -500,7 +500,7 @@ Examples:
 
 <div style="page-break-after: always;"></div>
 
-### Taking student attendance
+### Take Students' Attendance
 
 <div markdown="span" class="alert alert-primary">
 
@@ -548,7 +548,7 @@ Examples:
 
 <div style="page-break-after: always;"></div>
 
-### Grade assessments: `grade`
+### Grade Assessments: `grade`
 
 Grade a student's attempt at a specified module assessment. You can assign the same grade to multiple students at once.
 
@@ -574,7 +574,7 @@ Examples:
 
 <div style="page-break-after: always;"></div>
 
-### Managing data
+### Managing Data
 
 #### Clear all entries: `clear`
 
@@ -603,7 +603,7 @@ If your changes to the data file makes its format invalid, TAssist will discard 
 _Details coming soon ..._
 
 
-### Exiting the program: `exit`
+### Exiting the Program: `exit`
 
 Exit the program.
 
@@ -611,7 +611,7 @@ Format: `exit`
 
 <div style="page-break-after: always;"></div>
 
-## Command summary
+## Command Summary
 
 <table>
 <tbody>
@@ -903,7 +903,7 @@ To save you time, TAssist supports shorthand commands for each entity. When ente
 </tbody>
 </table>
 
-## Get in touch with us
+## Contact Us
 
 Feel free to reach out to us via our [github](https://github.com/AY2122S2-CS2103T-T13-2/tp/issues) if you have any questions or would like to contribute to our project!
 
